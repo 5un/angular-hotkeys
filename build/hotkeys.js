@@ -1654,7 +1654,7 @@
 
     // expose mousetrap as an AMD module
     if (typeof define === 'function' && define.amd) {
-        define(function() {
+        define('angular-hotkeys', function() {
             return Mousetrap;
         });
     }
